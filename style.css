@@ -1,0 +1,68 @@
+body{
+  background-color: #000;
+}
+
+h1, p, h3, li, small{
+  /* font-family: Lato; */
+  color: white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 10px 20px;
+  color: white;
+  align-items: center;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+  margin: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.navbar ul li:hover{
+  color: aqua;
+  transition: all 3ms ease-in;
+}
+
+img{
+  width: 60px;
+}
+
+.container{
+  padding: 10px 20px;
+}
+
+.what{
+
+}
+
+.what li{
+  list-style: disc;
+  padding: 5px;
+}
+
+footer{
+  background-color: #fff;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+small{
+  color: #000;
+  /* align-items: center; */
+  position: relative;
+  top: 18px;
+}
+
+.footer-container{
+  margin-top: 350px;
+  justify-content: center;
+}
