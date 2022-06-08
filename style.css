@@ -1,5 +1,9 @@
 body{
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.836);
+  background-image: url("https://shivlab.com/blog/wp-content/uploads/2020/04/react_logo.png");
+  background-repeat: no-repeat;
+  /* background-position: right 75%; */
+  z-index: 999999;
 }
 
 h1, p, h3, li, small{
@@ -46,6 +50,11 @@ img{
 .what li{
   list-style: disc;
   padding: 5px;
+  padding-block: 10px;
+}
+
+.what li::marker{
+  color: aqua;
 }
 
 footer{
